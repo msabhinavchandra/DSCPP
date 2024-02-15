@@ -8,6 +8,7 @@ public:
     int priority;
     Node *next = NULL;
     Node(int data, int priority)
+    
     {
         this->data = data;
         this->priority = priority;
